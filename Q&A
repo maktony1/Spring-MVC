@@ -1,0 +1,6 @@
+select * from mvc_board order by bGroup desc, bStep asc;
+select * from mvc_board order by bStep asc;
+select * from mvc_board order by bGroup desc;
+select * from mvc_board;
+
+-- order by 에서 앞에 오는게 우선순위가 있는건지  컬럼 순서가 관계가 있는건지...  비그룹을 내림차순으로 한 상태에서 같다면 as
